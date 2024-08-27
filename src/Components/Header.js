@@ -11,6 +11,7 @@ function Header() {
       {/* Button on the Right */}
       <button className="button">
         Contact
+        <i className='fas fa-arrow-up'></i>
       </button>
     </header>
   );
