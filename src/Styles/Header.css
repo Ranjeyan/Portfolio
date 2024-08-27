@@ -13,15 +13,17 @@
 }
 
 .button {
-  background-color: #1e1e1f;
+  background-color: #373738;
   color: white;
-  padding: 14px 30px;
+  padding: 8px 28px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   font-size: 16px;
+  font-family: sfpro;
+  font-weight: lighter;
   transition: background-color 0.3s ease;
 }
 

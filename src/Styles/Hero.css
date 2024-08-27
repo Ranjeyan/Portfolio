@@ -14,31 +14,38 @@
 }
 
 .profile-image {
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .profile-info {
   display: flex;
   flex-direction: column;
-  font-family: 'SFfont',sans-serif;
+  font-family: sfpro;
 }
 
 .name {
   font-size: 24px;
-  margin-bottom: 10px;
-  font-family: myFont;
-  letter-spacing: 2px;
+  font-weight: lighter;
+  margin: 0 0 0 0;
+  font-family: sfpro;
+  letter-spacing: 1px;
 }
 
 .role {
   font-size: 16px;
   color: #6c757d;
+  margin: 0 0 0 0;
+  font-family: sfpro;
+}
+
+.link{
   margin: 0;
-  font-family: myFont;
+  font-family: sfpro;
+  color: #6c757d;
 }
 
 .about {
@@ -47,24 +54,24 @@
   width: 100%;
   padding-left: calc(80px + 20px);
   box-sizing: border-box;
-  font-family: myFont;
 }
 
 .about h2 {
   font-size: 14px;
   margin-bottom: 10px;
-  font-family: myFont;
+  font-family:sfpro;
+  font-weight: lighter;
 }
 
 .about p {
   font-size: 14px;
-  color: #333;
+  color: #707070;
   line-height: 1.5;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis; 
-  font-family: myFont;
+  font-family: sfpro;
 }
 
 .projects {
@@ -78,7 +85,8 @@
 .projects h2 {
   font-size: 16px;
   margin-bottom: 10px;
-  font-family: var(--ranjeyan-fonts-body);
+  font-family: sfpro;
+  font-weight: lighter;
 }
 
 .project-item {
@@ -86,18 +94,19 @@
 }
 
 .project-item h3 {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 5px;
-  font-family: myFont;
+  font-family: sfpro;
+  font-weight: lighter;
 }
 
 .project-item p {
   font-size: 14px;
-  color: #333;
+  color: #707070;
   line-height: 1.5;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: myFont;
+  font-family: sfpro;
 }

@@ -10,12 +10,13 @@ function Hero() {
         <div className="profile-info">
           <h1 className="name">Ranjeyan</h1>
           <p className="role">Datalyst</p>
+          <p className="link">Datalyst</p>
         </div>
       </div>
       <div className="about">
         <h2>About Me</h2>
         <p>
-          Poised to create a impact in the field of data science
+          Hi! I am Ranjeyan . I am a Data Science scholar .
         </p>
       </div>
       
@@ -34,12 +35,7 @@ function Hero() {
             A mobile application for a bakery that allows customers to place orders online. Developed using Flutter, with Firebase as the backend for managing orders and inventory.
           </p>
         </div>
-        <div className="project-item">
-          <h3>ThreatSeeker</h3>
-          <p>
-            A cybersecurity project focused on detecting various security threats using machine learning algorithms. Implemented using Python and a range of ML techniques.
-          </p>
-        </div>
+      
       </div>
     </div>
   );
