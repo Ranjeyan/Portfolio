@@ -8,8 +8,8 @@ function Hero() {
       <div className="profile">
         <img src={Ranjeyan} alt="Profile" className="profile-image" />
         <div className="profile-info">
-          <h1 className="name">Ranjeyan</h1>
-          <p className="role">Datalyst</p>
+          <h1 className="name">Ranjeyan Ariputhiran</h1>
+          <p className="role">M.Sc., Data Science</p>
           <p className="link">Datalyst</p>
         </div>
       </div>

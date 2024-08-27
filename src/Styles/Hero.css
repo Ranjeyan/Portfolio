@@ -28,23 +28,24 @@
 }
 
 .name {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: lighter;
-  margin: 0 0 0 0;
+  margin: 0 0 4px 0;
   font-family: sfpro;
   letter-spacing: 1px;
 }
 
 .role {
-  font-size: 16px;
+  font-size: 14px;
   color: #6c757d;
-  margin: 0 0 0 0;
+  margin: 0 0 4px 0;
   font-family: sfpro;
 }
 
 .link{
   margin: 0;
   font-family: sfpro;
+  font-size: 14px;
   color: #6c757d;
 }
 
@@ -109,4 +110,49 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: sfpro;
+}
+
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .hero {
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .profile {
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: row; /* Ensure the image and info remain in a row */
+  }
+
+  .profile-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px; /* Reduced margin on smaller screens */
+  }
+
+  .profile-info {
+    align-items: flex-start; /* Ensure text stays aligned to the left */
+  }
+
+  .name, .role, .link {
+    margin-top: 0; /* Remove margin for a tighter fit */
+  }
+
+  .about,
+  .projects {
+    padding-left: 0;
+    margin-top: 15px;
+    max-width: 100%;
+  }
+
+  .projects h2, .about h2 {
+    font-size: 14px;
+  }
+
+  .project-item h3, .project-item p {
+    font-size: 13px;
+  }
 }
