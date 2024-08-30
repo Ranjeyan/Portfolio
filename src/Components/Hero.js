@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Hero.css';
 import Ranjeyan from '../assets/Ranjeyan.jpg';
-import ProjectImage1 from '../assets/Euro.png';
-import ProjectImage2 from '../assets/Euro.png';
+import Logo from '../assets/R.png'
+import ProjectImage2 from '../assets/euro.svg';
+import Links from './Links'
 
 function Hero() {
   return (
@@ -33,7 +34,7 @@ function Hero() {
               <p className="project-year">2024</p>
             </div>
             <div className="project-right">
-              <img src={ProjectImage1} alt="Project" className="project-image" />
+              <img src={Logo} alt="Project" className="project-image" />
               <div className="project-details">
                 <h3>
                   <Link to="/portfolio" className="project-title-link">
@@ -76,6 +77,7 @@ function Hero() {
             </div>
           </div>
         </div>
+        <Links/>
       </div>
     </div>
   );
