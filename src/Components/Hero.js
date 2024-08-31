@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 import '../Styles/Hero.css';
 import Ranjeyan from '../assets/Ranjeyan.jpg';
-import Logo from '../assets/R.png'
+import Logo from '../assets/R.png';
 import ProjectImage2 from '../assets/euro.svg';
-import Links from './Links'
+import Links from './Links';
 
 function Hero() {
   return (
@@ -37,9 +37,14 @@ function Hero() {
               <img src={Logo} alt="Project" className="project-image" />
               <div className="project-details">
                 <h3>
-                  <Link to="/portfolio" className="project-title-link">
-                  <span className="project-title-text">Portfolio Website</span>
-                  </Link>
+                  <a 
+                    href="https://github.com/Ranjeyan/Portfolio" 
+                    className="project-title-link"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <span className="project-title-text">Portfolio Website</span>
+                  </a>
                   <span className="arrow">↗</span>
                 </h3>
                 <p className="project-description">
@@ -61,7 +66,7 @@ function Hero() {
               <div className="project-details">
                 <h3>
                   <Link to="/demo" className="project-title-link">
-                  <span className="project-title-text">Euro 2024 Insights</span>
+                    <span className="project-title-text">Euro 2024 Insights</span>
                   </Link>
                   <span className="arrow">↗</span>
                 </h3>

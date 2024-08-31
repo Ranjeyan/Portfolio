@@ -45,7 +45,7 @@ function Links() {
         </div>
         <div className="link-right">
           <a
-            href="https://twitter.com/ranjeyan"
+            href="https://x.com/theranjeyan"
             target="_blank"
             rel="noopener noreferrer"
             className="link-text"

@@ -27,7 +27,7 @@
 }
 
 .link-right {
-  flex: 2; /* Decreased flex value to bring the elements closer */
+  flex: 2;
   display: flex;
   align-items: center;
   margin-left: 60px;
@@ -41,14 +41,14 @@
 }
 
 .link-text {
-  color: #007bff;
+  color: #ffffff;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
 
 .link-title {
-  margin-right: 2px; /* Reduce the space between the link text and the arrow */
+  margin-right: 2px; 
 }
 
 .arrow {
