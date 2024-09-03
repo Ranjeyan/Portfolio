@@ -1,0 +1,95 @@
+.project-item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.project-left {
+  flex: 1;
+  text-align: left;
+}
+
+.project-year {
+  font-weight: bold;
+  font-size: 14px;
+  color: gray;
+  font-family: sfpro;
+  font-weight: lighter;
+}
+
+.project-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-title-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+}
+
+.project-title-text {
+  font-size: 14px;
+  font-weight: lighter;
+  font-family: sfpro;
+  position: relative;
+}
+
+.project-title-link:hover .project-title-text {
+  text-decoration: underline; 
+}
+
+.arrow {
+  margin-left: 5px;
+  font-size: 0.8em;
+  font-weight: lighter; 
+}
+
+.tool-dot {
+  font-weight: 900;
+  font-size: 1.2em;
+  margin: 0 0.3em;
+}
+
+.project-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.project-details {
+  font-family: sfpro;
+  font-weight: lighter;
+}
+
+.project-description {
+  margin: 0 0 6px 0;
+  font-family: sfpro;
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 20px;
+}
+
+.project-tools {
+  font-size: 14px;
+  color: #757474;
+}
+
+a {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+a:hover .project-title-text {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .project-item h3, .project-item p {
+    font-size: 13px;
+  }
+}

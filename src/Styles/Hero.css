@@ -4,6 +4,7 @@
   align-items: center;
   padding: 20px;
 }
+
 .profile {
   display: flex;
   align-items: center;
@@ -11,6 +12,7 @@
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .profile-image {
   width: 90px;
   height: 90px;
@@ -18,10 +20,12 @@
   object-fit: cover;
   margin-right: 30px;
 }
+
 .profile-info {
   display: flex;
   flex-direction: column;
 }
+
 .name {
   font-size: 22px;
   font-weight: lighter;
@@ -29,18 +33,33 @@
   font-family: sfpro;
   letter-spacing: 1px;
 }
+
 .role {
   font-size: 14px;
   color: #6c757d;
   margin: 0 0 4px 0;
   font-family: sfpro;
 }
+
 .link {
   margin: 0;
   font-family: sfpro;
   font-size: 14px;
   color: #6c757d;
 }
+
+.link a {
+  color: #6c757d;
+  text-decoration: none; 
+  font-weight: lighter;
+  font-family: sfpro;
+}
+
+.link a:hover {
+  text-decoration: underline; 
+}
+
+
 .content-wrapper {
   display: flex;
   flex-direction: column;
@@ -50,16 +69,19 @@
   padding-left: calc(20px + 20px); 
   box-sizing: border-box;
 }
+
 .about {
   margin-top: 20px;
   width: 100%;
 }
+
 .about h2, .projects h2 {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: sfpro;
   font-weight: lighter;
 }
+
 .about p {
   font-size: 14px;
   color: #707070;
@@ -70,127 +92,40 @@
   text-overflow: ellipsis; 
   font-family: sfpro;
 }
-.projects {
-  margin-top: 20px;
-  font-family: sfpro;
-  font-weight: lighter;
-  font-size: 12px;
-  width: 100%;
-}
-.project-item {
-  display: flex;
-  margin-bottom: 30px;
-  align-items: flex-start;
-}
-.project-left {
-  flex: 1;
-  text-align: left;
-}
-.project-year {
-  font-weight: bold;
-  font-size: 14px;
-  color: gray;
-  font-family: sfpro;
-  font-weight: lighter;
-}
-.project-right {
-  flex: 3;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.project-title-link {
-  text-decoration: none;
-  color: inherit;
-  display: inline-flex;
-  align-items: center;
-}
-
-.project-title-text {
-  font-size: 14px;
-  font-weight: lighter;
-  font-family: sfpro;
-  position: relative;
-}
-
-.project-title-link:hover .project-title-text {
-  text-decoration: underline; 
-}
-
-.arrow {
-  margin-left: 5px;
-  font-size: 1em;
-  font-weight: lighter; 
-}
-
-
-.tool-dot {
-  font-weight: 900;
-  font-size: 1.2em;
-  margin: 0 0.3em;
-}
-.project-image {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  margin-top: 10px;
- 
-}
-.project-details {
-  font-family: sfpro;
-  font-weight: lighter;
-}
-.project-description {
-  margin: 0 0 6px 0;
-  font-family: sfpro;
-  font-size: 14px;
-  color: #a8a8a8;
-  line-height: 20px;
-}
-.project-tools {
-  font-size: 14px;
-  color: #757474;
-}
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 
 @media (max-width: 768px) {
   .hero {
     align-items: flex-start;
     padding: 10px;
   }
+  
   .profile {
     padding: 10px;
     align-items: flex-start;
     flex-direction: row;
   }
+  
   .profile-image {
     width: 70px;
     height: 70px;
     margin-right: 15px;
   }
+  
   .profile-info {
     align-items: flex-start;
   }
+  
   .name, .role, .link {
     margin-top: 0;
   }
+  
   .content-wrapper {
     padding-left: 0;
     margin-top: 15px;
     max-width: 100%;
   }
+  
   .projects h2, .about h2 {
     font-size: 14px;
-  }
-  .project-item h3, .project-item p {
-    font-size: 13px;
   }
 }
