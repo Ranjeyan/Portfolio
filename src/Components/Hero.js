@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Hero.css';
-import Ranjeyan from '../assets/Ranjeyan.jpg';
+import Ranjeyan from '../assets/my.jpg';
 import Logo from '../assets/R.png';
 import ProjectImage2 from '../assets/euro.svg';
 import Links from './Links';
