@@ -10,16 +10,17 @@ const FloatingButton = () => {
 
   return (
     <div className="floating-container">
-      <button className="floating-button" onClick={toggleMenu}>
-        ☰
+      <button
+        className={`floating-button ${isOpen ? 'rotate' : ''}`}
+        onClick={toggleMenu}
+      >
+        {isOpen ? '✖' : '☰'}
       </button>
-      {isOpen && (
-        <div className="floating-menu">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#resume">Resume</a>
-        </div>
-      )}
+      <div className={`floating-menu ${isOpen ? 'open' : ''}`}>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+      </div>
     </div>
   );
 };
