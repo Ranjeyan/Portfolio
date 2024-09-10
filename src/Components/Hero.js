@@ -13,7 +13,7 @@ function Hero() {
         <img src={Ranjeyan} alt="Profile" className="profile-image" />
         <div className="profile-info">
           <h1 className="name">Ranjeyan Ariputhiran</h1>
-          <p className="role">M.Sc., Data Science</p>
+          <p className="role">M.Sc., Data Science(Integrated)</p>
           <p className="link">
             <a href='mailto:amranjeyan03@gmail.com'>amranjeyan03@gmail.com</a>
           </p>
