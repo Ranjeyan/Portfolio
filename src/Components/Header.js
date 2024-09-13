@@ -6,7 +6,10 @@ import Resume from '../assets/Ranjeyan_Resume.pdf';
 function Header() {
   return (
     <header className="header">
+      <a href='/' className='logo-link'>
       <img src={Logo} alt="Logo" className="logo" />
+
+      </a>
 
       <a href={Resume} className="button" download="Resume.pdf">
         <span className="button-text">Resume</span>

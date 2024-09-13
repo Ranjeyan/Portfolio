@@ -18,6 +18,10 @@
   height: 45px;
 }
 
+.logo-link{
+  text-decoration: none;
+}
+
 .button {
   background-color: #373738;
   color: white;
@@ -30,7 +34,7 @@
   transition: background-color 0.3s ease;
   text-decoration: none;
   background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 8px 32px 0 rgba(69, 106, 180, 0.37);
   backdrop-filter: blur( 17px );
   -webkit-backdrop-filter: blur( 17px );
   border-radius: 10px;
