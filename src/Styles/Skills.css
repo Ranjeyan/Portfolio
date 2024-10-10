@@ -1,0 +1,32 @@
+/* Skills.css */
+.skills-section {
+    margin: 20px 0;
+  }
+  
+  .skills-section h2 {
+    font-size: 16px; /* Adjust as per your design */
+    font-family: sfpro;
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list li {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(69, 106, 180, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: sfpro;
+  }
+  

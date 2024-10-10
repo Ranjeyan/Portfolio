@@ -1,3 +1,4 @@
+// Hero.js
 import React from 'react';
 import '../Styles/Hero.css';
 import Ranjeyan from '../assets/my.jpg';
@@ -5,6 +6,7 @@ import Logo from '../assets/R.png';
 import ProjectImage2 from '../assets/euro.svg';
 import Links from './Links';
 import Project from './Project';
+import Skills from './Skills'; // Import the Skills component
 
 function Hero() {
   return (
@@ -15,19 +17,20 @@ function Hero() {
           <h1 className="name">Ranjeyan Ariputhiran</h1>
           <p className="role">M.Sc., Data Science(Integrated)</p>
           <p className="link">
-            <a href='mailto:amranjeyan03@gmail.com'>amranjeyan03@gmail.com</a>
+            <a href="mailto:amranjeyan03@gmail.com">amranjeyan03@gmail.com</a>
           </p>
         </div>
       </div>
-      
+
       <div className="content-wrapper">
         <div className="about">
           <h2>About</h2>
-          <p>
-            Hi! I am Ranjeyan. I am a Data Science scholar.
-          </p>
+          <p>Hi! I am Ranjeyan. I am a Data Science scholar.</p>
         </div>
-        
+
+        {/* Skills Section */}
+        <Skills />
+
         <div className="projects">
           <h2>Projects</h2>
           <Project
@@ -38,7 +41,7 @@ function Hero() {
             tools={['React', 'CSS', 'Javascript']}
             link="https://github.com/Ranjeyan/Portfolio"
           />
-          
+
           <Project
             year="2024"
             image={ProjectImage2}
