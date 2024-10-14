@@ -1,8 +1,6 @@
 import React from 'react';
 import '../Styles/Demo.css';
-import LinePlot from './LinePlot'; 
 
-const data = [10, 20, 15, 25, 30, 45, 50, 40, 35, 60, 55, 70]; 
 
 function Demo() {
   return (
@@ -18,10 +16,7 @@ function Demo() {
         </iframe>
       </div>
       
-      <h2>Line Plot Analysis</h2>
-      <div className="lineplot-container">
-        <LinePlot data={data} width={600} height={400} /> 
-      </div>
+      
     </div>
   );
 }
