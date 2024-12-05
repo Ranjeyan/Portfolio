@@ -72,6 +72,7 @@
   font-size: 14px;
   color: #a8a8a8;
   line-height: 20px;
+  justify-content: flex-end;
 }
 
 .project-tools {
