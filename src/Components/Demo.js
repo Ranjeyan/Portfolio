@@ -14,6 +14,9 @@ function Demo() {
           src="https://app.powerbi.com/view?r=eyJrIjoiNmJjZDEzNDMtZDA1MC00ZGJlLWI3NGMtNGJkOTg1NjIzZjM0IiwidCI6IjYzZmYzZjIzLTE1ZjgtNDY3ZS1iM2RmLTM1NzliYTVkYzQxZSJ9" 
           allowFullScreen="true">
         </iframe>
+        <p style={{textAlign:'center',marginTop:'20px',fontStyle:'italic',color:'#555'}}>
+        *The dashboard is currently under construction. Stay tuned for updates!*
+        </p>
       </div>
       
       
