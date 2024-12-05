@@ -1,7 +1,7 @@
 // Hero.js
 import React from 'react';
 import '../Styles/Hero.css';
-import Ranjeyan from '../assets/my.jpg';
+import Ranjeyan from '../assets/profile-pic.jpg';
 import Logo from '../assets/R.png';
 import ProjectImage2 from '../assets/euro.svg';
 import Links from './Links';
@@ -15,7 +15,7 @@ function Hero() {
         <img src={Ranjeyan} alt="Profile" className="profile-image" />
         <div className="profile-info">
           <h1 className="name">Ranjeyan Ariputhiran</h1>
-          <p className="role">M.Sc., Data Science(Integrated)</p>
+          <p className="role">Mobile Application Developer(Intern)</p>
           <p className="link">
             <a href="mailto:amranjeyan03@gmail.com">amranjeyan03@gmail.com</a>
           </p>
@@ -25,7 +25,10 @@ function Hero() {
       <div className="content-wrapper">
         <div className="about">
           <h2>About</h2>
-          <p>Hi! I am Ranjeyan. I am a Data Science scholar.</p>
+          <p>
+          Hey👋I am an MSc Data Science student and a Mobile App Developer Intern at Satyukt Analytics. 
+          With expertise in data-driven solutions and app development, I thrive at the intersection of technology and innovation, creating impactful applications
+           to address real-world challenges.</p>
         </div>
 
         {/* Skills Section */}
