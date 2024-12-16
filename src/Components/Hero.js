@@ -6,7 +6,7 @@ import Logo from '../assets/R.png';
 import ProjectImage2 from '../assets/euro.svg';
 import Links from './Links';
 import Project from './Project';
-import Skills from './Skills'; // Import the Skills component
+import Skills from './Skills'; 
 
 function Hero() {
   return (
